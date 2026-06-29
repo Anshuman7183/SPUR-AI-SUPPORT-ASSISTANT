@@ -215,6 +215,7 @@ GET /api/chat/history/:sessionId
 
 ## Demo Screenshot
 
+![Spur AI Support Assistant](docs/chat-ui-home.png)
 ![Spur AI Support Assistant](docs/chat-ui.png)
 
 ## Database Schema
