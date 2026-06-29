@@ -104,7 +104,7 @@ Frontend/src/
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Anshuman7183/SPUR-AI-SUPPORT-ASSISTANT>
 cd "Spur AI Live Chatbot"
 ```
 
@@ -145,10 +145,11 @@ http://localhost:5173
 Create `Backend/.env`
 
 ```env
+NODE_ENV=development
 PORT=4000
-DATABASE_URL=your_postgresql_connection_string
-REDIS_URL=your_upstash_redis_url
-GEMINI_API_KEY=your_gemini_api_key
+DATABASE_URL=postgresql://username:password@host/database?sslmode=require
+REDIS_URL=rediss://default:password@host:6379
+GEMINI_API_KEY=your_gemini_api_key_here
 CORS_ORIGIN=http://localhost:5173
 ```
 
